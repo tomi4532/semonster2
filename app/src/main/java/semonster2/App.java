@@ -5,7 +5,9 @@ package semonster2;
 
 public class App {
   public String getGreeting() {
-    return "こんにちは SEMonster";
+    int ID = 10;
+    String word = "こんにちは SEMonster あなたのIDは" + ID;
+    return word;
   }
 
   public static void main(String[] args) {
