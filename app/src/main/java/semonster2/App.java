@@ -5,11 +5,14 @@ package semonster2;
 
 public class App {
   public String getGreeting() {
-    return "こんにちは SEMonster";
+    return "モンスターがあらわれた！！！！！！！！";
   }
 
   public static void main(String[] args) {
     System.out.println(new App().getGreeting());
+    Monster monster = new Monster(); 
+    monster.drawMonsters();
+    monster.showDeck();
   }
   
 }
