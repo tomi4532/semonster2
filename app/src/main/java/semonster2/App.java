@@ -10,13 +10,8 @@ public class App {
     return word;
   }
 
-  public String getEnding(){
-    String end = "遊んでくれてありがとう！";
-    return end;
-  }
   public static void main(String[] args) {
     System.out.println(new App().getGreeting());
-    System.out.println(new App().getEnding());
   }
   
 }
