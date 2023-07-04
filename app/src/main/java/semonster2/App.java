@@ -5,6 +5,7 @@ package semonster2;
 
 public class App {
   public String getGreeting() {
+
     int ID = 10;
     String word = "こんにちは SEMonster あなたのIDは" + ID;
     return word;
@@ -16,7 +17,13 @@ public class App {
   }
   public static void main(String[] args) {
     System.out.println(new App().getGreeting());
+
+    Monster monster = new Monster(); 
+    monster.drawMonsters();
+    monster.showDeck();
+
     System.out.println(new App().getEnding());
+
   }
   
 }
