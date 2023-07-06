@@ -11,19 +11,21 @@ public class App {
     return word;
   }
 
-  public String getEnding(){
+  public String getEnding() {
     String end = "遊んでくれてありがとう！";
     return end;
   }
+
   public static void main(String[] args) {
     System.out.println(new App().getGreeting());
-
-    Monster monster = new Monster(); 
+    Status job = new Status();
+    job.Job();
+    Monster monster = new Monster();
     monster.drawMonsters();
     monster.showDeck();
 
     System.out.println(new App().getEnding());
 
   }
-  
+
 }
