@@ -18,6 +18,8 @@ public class App {
 
   public static void main(String[] args) {
     System.out.println(new App().getGreeting());
+    Status job = new Status();
+    job.Job();
     Monster monster = new Monster();
     monster.drawMonsters();
     monster.showDeck();
